@@ -1,8 +1,13 @@
-<p align="center"><a href="https://en.wikipedia.org/wiki/CUDA">
-  <img width="50%" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/NVIDIA.svg" />
-</a></p>
+<div align="center">
+    <p align="center">
+        <a href="https://en.wikipedia.org/wiki/CUDA">
+          <img width="50%" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/NVIDIA.svg" />
+        </a>
+    </p>
 
-# Awesome [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) [Programming](https://developers.redhat.com/articles/2024/08/07/what-gpu-programming) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# **`Awesome`** [GPU](https://wikipedia.org/wiki/Graphics_processing_unit) [Programming](https://developers.redhat.com/articles/2024/08/07/what-gpu-programming) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+</div>
+
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtube.com/playlist?list=PL9V4Zu3RroiWMN2G3kXw1IMPQ-fUf-3CQ&si=Xg63QDf04tlsbfRJ)
 [![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/r/GraphicsProgramming/)
 
