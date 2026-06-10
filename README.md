@@ -25,6 +25,26 @@
 - [Contributing](#contributing)
 - [Contributors](#contributors)
 
+
+### Frameworks
+
+#### [Pytorch](https://pytorch.org/get-started/locally/)
+* Linux
+    ```bash
+    pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu132
+    ```
+* Windows
+    ```powershell
+    pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu132
+    ```
+Test
+```shell
+python -c "import torch; print(torch.__version__)"
+```
+
+### Tools
+- [nvitop](https://github.com/XuehaiPan/nvitop) - An interactive NVIDIA-GPU [process viewer](https://nvitop.readthedocs.io/en/latest/) and beyond, the one-stop solution for GPU process management.
+
 ##
 ### My Other Awesome Lists
 You can access the my other awesome lists [here](https://cyberthreatdefence.com/my_awesome_lists)
