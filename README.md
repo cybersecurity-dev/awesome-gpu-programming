@@ -1,7 +1,7 @@
 <div align="center">
     <p align="center">
-        <a href="https://en.wikipedia.org/wiki/CUDA">
-          <img width="50%" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/NVIDIA.svg" />
+        <a href="https://wikipedia.org/wiki/CUDA">
+          <img width="35%" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/NVIDIA.svg" />
         </a>
     </p>
 
@@ -46,6 +46,7 @@ python -c "import torch; print(torch.__version__)"
 
 ### Tools
 - [nvitop](https://github.com/XuehaiPan/nvitop) - An interactive NVIDIA-GPU [process viewer](https://nvitop.readthedocs.io/en/latest/) and beyond, the one-stop solution for GPU process management.
+
 
 ##
 ### My Other Awesome Lists
