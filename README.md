@@ -1,7 +1,7 @@
 <div align="center">
     <p align="center">
         <a href="https://wikipedia.org/wiki/CUDA">
-          <img width="35%" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/NVIDIA.svg" />
+          <img width="25%" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/NVIDIA.svg" />
         </a>
     </p>
 
@@ -55,7 +55,7 @@ timeline
 <p align="center">
     <a href="https://github.com/cybersecurity-dev/"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/github.svg" alt="GitHub"></a>
     &nbsp;
-    <a href="https://www.youtube.com/@CyberThreatDefence"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/youtube.svg" alt="YouTube"></a>
+    <a href="https://www.youtube.com/@CyberThreatDefense"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/youtube.svg" alt="YouTube"></a>
     &nbsp;
     <a href="https://cyberthreatdefence.com/my_awesome_lists"><img height="20" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/blog.svg" alt="My Awesome Lists"></a>
     <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
@@ -119,6 +119,44 @@ mindmap
 
 ### Frameworks
 
+```mermaid
+graph TD
+
+    GPU[GPU Computing]
+
+    GPU --> Graphics
+    GPU --> HPC
+    GPU --> AI
+    GPU --> DataScience
+    GPU --> Robotics
+    GPU --> CyberSecurity
+    GPU --> ScientificComputing
+
+    Graphics --> OpenGL
+    Graphics --> Vulkan
+    Graphics --> DirectX
+
+    HPC --> CUDA
+    HPC --> MPI
+    HPC --> OpenMP
+
+    AI --> PyTorch
+    AI --> TensorFlow
+    AI --> JAX
+
+    CyberSecurity --> PasswordCracking
+    CyberSecurity --> MalwareAnalysis
+    CyberSecurity --> NetworkAnalysis
+
+    ScientificComputing --> Simulation
+    ScientificComputing --> Bioinformatics
+    ScientificComputing --> Physics
+
+    Robotics --> AutonomousSystems
+    Robotics --> ComputerVision
+```
+
+
 #### [Pytorch](https://pytorch.org/get-started/locally/)
 * Linux
     ```bash
@@ -136,6 +174,97 @@ python -c "import torch; print(torch.__version__)"
 ### Tools
 - [nvitop](https://github.com/XuehaiPan/nvitop) - An interactive NVIDIA-GPU [process viewer](https://nvitop.readthedocs.io/en/latest/) and beyond, the one-stop solution for GPU process management.
 
+
+### GPU Architecture
+
+```mermaid
+graph TD
+
+    GPU[GPU Device]
+
+    GPU --> SM1[Streaming Multiprocessor]
+    GPU --> SM2[Streaming Multiprocessor]
+    GPU --> SM3[Streaming Multiprocessor]
+
+    SM1 --> C1[CUDA Cores]
+    SM1 --> TC1[Tensor Cores]
+    SM1 --> RT1[RT Cores]
+
+    GPU --> MEM[Global Memory]
+    GPU --> SHM[Shared Memory]
+    GPU --> REG[Registers]
+    GPU --> CACHE[L1 L2 Cache]
+```
+
+### GPU Memory Hierarchy
+
+```mermaid
+graph TD
+
+    A[GPU Memory]
+
+    A --> B[Registers]
+    A --> C[Shared Memory]
+    A --> D[L1 Cache]
+    A --> E[L2 Cache]
+    A --> F[Global Memory]
+    A --> G[Constant Memory]
+    A --> H[Texture Memory]
+
+    B --> B1[Fastest]
+    C --> C1[Block Scope]
+    F --> F1[Largest Capacity]
+```
+
+### GPU Thread Hierarchy
+
+```mermaid
+graph TD
+
+    GPU[GPU Kernel]
+
+    GPU --> GRID[Grid]
+
+    GRID --> BLOCK1[Block]
+    GRID --> BLOCK2[Block]
+    GRID --> BLOCK3[Block]
+
+    BLOCK1 --> T1[Thread]
+    BLOCK1 --> T2[Thread]
+    BLOCK1 --> T3[Thread]
+
+    BLOCK2 --> T4[Thread]
+    BLOCK2 --> T5[Thread]
+```
+
+### GPU Programming Frameworks
+
+```mermaid
+graph TB
+
+    GPU[GPU Programming]
+
+    GPU --> CUDA
+    GPU --> OpenCL
+    GPU --> HIP
+    GPU --> SYCL
+    GPU --> OpenACC
+    GPU --> Vulkan
+
+    CUDA --> CU1[cuBLAS]
+    CUDA --> CU2[cuDNN]
+    CUDA --> CU3[NCCL]
+    CUDA --> CU4[TensorRT]
+
+    HIP --> AMDGPU
+
+    SYCL --> ONEAPI[Intel oneAPI]
+
+    OpenCL --> OCL1[Cross Vendor]
+    Vulkan --> VK1[Compute Shader]
+
+    OpenACC --> ACC1[Directive Based]
+```
 
 ##
 ### My Other Awesome Lists
