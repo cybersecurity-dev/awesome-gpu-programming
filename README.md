@@ -5,6 +5,47 @@
         </a>
     </p>
 
+```mermaid
+timeline
+    title GPU Programming Evolution
+
+    1970s : Graphics Accelerators
+    1981 : IBM Display Adapter
+    1993 : 3D Graphics Acceleration
+
+    1999 : NVIDIA Introduces GPU Term
+         : GeForce 256
+
+    2001 : Programmable Vertex Shaders
+
+    2004 : GPGPU Research Growth
+
+    2006 : CUDA Released
+         : General Purpose GPU Computing
+
+    2008 : OpenCL Standard
+
+    2010 : CUDA Ecosystem Expansion
+
+    2012 : Deep Learning Revolution
+         : AlexNet on GPUs
+
+    2015 : TensorFlow GPU Support
+
+    2017 : AI Boom
+         : Volta Tensor Cores
+
+    2020 : Ampere Architecture
+         : Large-scale AI Training
+
+    2022 : Hopper Architecture
+         : Transformer Optimization
+
+    2024+ : Generative AI
+          : LLM Training
+          : Multi-GPU Supercomputing
+```
+
 # **`Awesome`** [GPU](https://wikipedia.org/wiki/Graphics_processing_unit) [Programming](https://developers.redhat.com/articles/2024/08/07/what-gpu-programming) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 </div>
 
@@ -19,6 +60,54 @@
     <a href="https://cyberthreatdefence.com/my_awesome_lists"><img height="20" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/blog.svg" alt="My Awesome Lists"></a>
     <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
 </p>
+
+```mermaid
+mindmap
+  root((GPU<br/>Programming))
+
+    Languages
+      CUDA C++
+      OpenCL C
+      SYCL
+      HIP
+      OpenACC
+
+    Vendors
+      NVIDIA
+      AMD
+      Intel
+      Apple
+
+    APIs
+      CUDA
+      OpenCL
+      Vulkan Compute
+      DirectCompute
+      Metal
+
+    AI_Frameworks
+      PyTorch
+      TensorFlow
+      JAX
+      MXNet
+
+    HPC
+      MPI
+      OpenMP
+      CUDA MPI
+      NCCL
+
+    Visualization
+      OpenGL
+      Vulkan
+      DirectX
+
+    Profiling
+      Nsight
+      nvprof
+      rocProf
+      VTune
+```
 
 ## 📖 Contents
 - [Frameworks](#frameworks)
